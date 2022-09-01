@@ -1,12 +1,12 @@
 <?php
 // A test for checking dbconnectivity
-$dbhost = '162.241.85.66:3306';
-// $portno = '3306';
+$dbhost = 'localhost';
+$portno = '3306';
 $dbname= 'abakujob_pallotti';
 $username = 'abakujob_pallotti';
 $password = 'Pallotti@1';
 
-$conn = mysqli_connect($dbhost,$username,$password,$dbname);
+$conn = mysqli_connect($dbhost,$username,$password,$dbname,$portno);
 
 if(mysqli_connect_errno())
 {
