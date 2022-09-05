@@ -7,6 +7,10 @@
         <title>Document</title>
 </head>
 <body>
+<<<<<<< HEAD
         <h1>This is a text message for demonstration</h1>    
+=======
+        <h1>This is a text message for demonstration</h1>   
+>>>>>>> f259b0f8441c4af4b6d24e327e0cafd125ad6cdf
 </body>
 </html>
